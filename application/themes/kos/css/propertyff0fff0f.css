@@ -1,0 +1,444 @@
+.section-property-top {
+  padding: 60px 0;
+  font-size: 20px; }
+  @media (max-width: 991px) {
+    .section-property-top {
+      text-align: center;
+      padding: 30px 0; } }
+  @media (max-width: 767px) {
+    .section-property-top {
+      font-size: 15px; } }
+  .section-property-top .info {
+    font-family: "google_sansmedium", Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start; }
+    @media (max-width: 991px) {
+      .section-property-top .info {
+        justify-content: center; } }
+    .section-property-top .info .col-item {
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      -webkit-align-items: center; }
+    .section-property-top .info span {
+      padding: 0 40px 0 15px;
+      display: inline-block; }
+    @media (max-width: 767px) {
+      .section-property-top .info > div span {
+        padding-right: 30px; }
+      .section-property-top .info > div:last-child span {
+        padding-right: 0; } }
+    .section-property-top .info i {
+      font-size: 35px; }
+      @media (max-width: 767px) {
+        .section-property-top .info i {
+          font-size: 25px; } }
+      .section-property-top .info i.smaller {
+        font-size: 30px; }
+        @media (max-width: 767px) {
+          .section-property-top .info i.smaller {
+            font-size: 22px; } }
+  .section-property-top .col-price {
+    font-family: "google_sansmedium", Helvetica, Arial, sans-serif;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end; }
+    @media (max-width: 991px) {
+      .section-property-top .col-price {
+        justify-content: center;
+        padding-top: 30px; } }
+    .section-property-top .col-price .price-main {
+      font-size: 40px;
+      color: #d4a655; }
+      @media (max-width: 991px) {
+        .section-property-top .col-price .price-main {
+          font-size: 30px; } }
+      @media (max-width: 767px) {
+        .section-property-top .col-price .price-main {
+          font-size: 20px; } }
+    .section-property-top .col-price .price-2 {
+      padding-left: 25px;
+      margin-left: 25px;
+      border-left: 1px solid #eee;
+      display: inline-block; }
+
+.section-gallery-list {
+  position: relative; }
+  .section-gallery-list .block-gallery-list .item a {
+    padding: 0 5px;
+    display: block; }
+  .section-gallery-list .block-gallery-list .item .image {
+    padding-top: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+    @media (max-width: 575px) {
+      .section-gallery-list .block-gallery-list .item .image {
+        padding-top: 80%; } }
+  .section-gallery-list .slick-arrow {
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    z-index: 1;
+    font-size: 0; }
+    @media (max-width: 575px) {
+      .section-gallery-list .slick-arrow {
+        width: 30px;
+        background-color: rgba(0, 0, 0, 0.6); } }
+    .section-gallery-list .slick-arrow:before {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: -5px; }
+    .section-gallery-list .slick-arrow.slick-prev {
+      left: 0; }
+      .section-gallery-list .slick-arrow.slick-prev:before {
+        border-right: 10px solid #d4a655; }
+    .section-gallery-list .slick-arrow.slick-next {
+      right: 0; }
+      .section-gallery-list .slick-arrow.slick-next:before {
+        border-left: 10px solid #d4a655; }
+    .section-gallery-list .slick-arrow:hover {
+      background-color: #d4a655; }
+      @media (max-width: 575px) {
+        .section-gallery-list .slick-arrow:hover {
+          background-color: rgba(212, 166, 85, 0.6); } }
+      .section-gallery-list .slick-arrow:hover:before {
+        border-right-color: #000;
+        border-left-color: #000; }
+
+.section-property-content {
+  padding: 40px 0 100px;
+  font-size: 15px; }
+  @media (max-width: 767px) {
+    .section-property-content {
+      padding: 40px 0; } }
+  .section-property-content h1,
+  .section-property-content h2 {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee; }
+  @media (min-width: 768px) {
+    .section-property-content .col-desc {
+      padding-right: 45px; } }
+  @media (max-width: 767px) {
+    .section-property-content .col-desc {
+      margin-bottom: 30px; } }
+  @media (min-width: 768px) {
+    .section-property-content .col-list {
+      padding-left: 45px; } }
+  .section-property-content .col-list .list {
+    border-bottom: 1px solid #eee; }
+    .section-property-content .col-list .list > div {
+      border-bottom: 1px solid #eee;
+      padding: 0 0 20px;
+      margin-bottom: 20px; }
+      .section-property-content .col-list .list > div.no-line {
+        border-bottom: none;
+        padding-bottom: 0; }
+    .section-property-content .col-list .list .text-label {
+      font-family: "google_sansmedium", Helvetica, Arial, sans-serif;
+      margin-bottom: 8px; }
+
+.contact-box {
+  color: #555;
+  font-size: 17px;
+  margin-top: 50px; }
+  .contact-box > div {
+    background-color: #fafafa;
+    border: 3px solid #e7e7e7;
+    padding: 18px 35px;
+    display: inline-block; }
+    @media (max-width: 991px) {
+      .contact-box > div {
+        display: block;
+        padding: 30px;
+        text-align: center; } }
+    @media (max-width: 575px) {
+      .contact-box > div {
+        padding: 20px; } }
+  .contact-box .lists .item {
+    margin-bottom: 15px; }
+    @media (min-width: 576px) {
+      .contact-box .lists .item {
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center; } }
+    .contact-box .lists .item .image img {
+      max-height: 18px; }
+    @media (max-width: 575px) {
+      .contact-box .lists .item .image {
+        margin-bottom: 10px; } }
+    @media (min-width: 576px) {
+      .contact-box .lists .item .text {
+        border-left: 2px solid;
+        padding-left: 10px;
+        margin-left: 20px;
+        line-height: 14px; } }
+  .contact-box .btn-enquiry a {
+    display: block;
+    background-color: #d4a655;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-family: "google_sansbold", Helvetica, Arial, sans-serif;
+    font-size: 13px; }
+    .contact-box .btn-enquiry a:hover {
+      background-color: #333; }
+
+.section-featured-list {
+  margin-bottom: 50px; }
+  .section-featured-list .title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+    margin-bottom: 30px; }
+    .section-featured-list .title * {
+      margin: 0; }
+  .section-featured-list .list .col-item {
+    margin-bottom: 50px; }
+    @media (max-width: 767px) {
+      .section-featured-list .list .col-item {
+        margin-bottom: 30px; } }
+    .section-featured-list .list .col-item .text-label {
+      font-size: 16px;
+      font-family: "google_sansmedium", Helvetica, Arial, sans-serif;
+      margin-bottom: 18px; }
+    .section-featured-list .list .col-item .text-list ul {
+      list-style: none;
+      padding: 0; }
+
+.section-property-location {
+  margin-bottom: 50px; }
+
+.section-property-related {
+  padding: 0 0 70px; }
+  .section-property-related .prop-title {
+    margin-bottom: 50px; }
+    .section-property-related .prop-title * {
+      margin: 0; }
+  @media (max-width: 991px) {
+    .section-property-related .prop-list .col-item:nth-child(3) {
+      display: none; } }
+
+#enquiry-form {
+  margin-bottom: 70px;
+  text-transform: uppercase; }
+  #enquiry-form .form-wrapper {
+    border: 3px solid #eee;
+    padding: 40px;
+    position: relative; }
+  #enquiry-form .close-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer; }
+    #enquiry-form .close-form:hover {
+      color: #d4a655; }
+  @media (min-width: 768px) {
+    #enquiry-form .ccm-block-type-form {
+      margin-top: 40px; } }
+  #enquiry-form .fields {
+    margin-bottom: 10px; }
+    #enquiry-form .fields .field {
+      font-size: 12px;
+      margin-bottom: 20px;
+      position: relative;
+      font-family: "google_sansbold", Helvetica, Arial, sans-serif; }
+      #enquiry-form .fields .field:nth-child(1), #enquiry-form .fields .field:nth-child(2) {
+        display: none; }
+      @media (min-width: 768px) {
+        #enquiry-form .fields .field {
+          padding-right: 60px; } }
+      #enquiry-form .fields .field .control-label,
+      #enquiry-form .fields .field input,
+      #enquiry-form .fields .field textarea {
+        transition: all 0.2s;
+        touch-action: manipulation; }
+      #enquiry-form .fields .field label.control-label,
+      #enquiry-form .fields .field .cs-placeholder {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1.71px;
+        color: #d4a655;
+        top: 40px;
+        position: absolute;
+        font-family: "google_sansbold", Helvetica, Arial, sans-serif; }
+      #enquiry-form .fields .field input,
+      #enquiry-form .fields .field textarea,
+      #enquiry-form .fields .field .cs-select {
+        border: none;
+        border-bottom: 1px solid rgba(212, 166, 85, 0.2);
+        text-transform: uppercase;
+        letter-spacing: 1.71px;
+        color: #d4a655;
+        padding-left: 0;
+        height: 70px; }
+        #enquiry-form .fields .field input:focus,
+        #enquiry-form .fields .field textarea:focus,
+        #enquiry-form .fields .field .cs-select:focus {
+          box-shadow: none;
+          border-color: #d4a655; }
+        #enquiry-form .fields .field input::-webkit-input-placeholder,
+        #enquiry-form .fields .field textarea::-webkit-input-placeholder,
+        #enquiry-form .fields .field .cs-select::-webkit-input-placeholder {
+          opacity: 0;
+          transition: inherit; }
+        #enquiry-form .fields .field input:placeholder-shown + label.control-label, #enquiry-form .fields .field input:placeholder-shown + label + label.control-label,
+        #enquiry-form .fields .field textarea:placeholder-shown + label.control-label,
+        #enquiry-form .fields .field textarea:placeholder-shown + label + label.control-label,
+        #enquiry-form .fields .field .cs-select:placeholder-shown + label.control-label,
+        #enquiry-form .fields .field .cs-select:placeholder-shown + label + label.control-label {
+          cursor: text;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          color: #aaa; }
+        #enquiry-form .fields .field input:not(:placeholder-shown) + label.control-label, #enquiry-form .fields .field input:not(:placeholder-shown) + label + label.control-label, #enquiry-form .fields .field input:focus + label.control-label, #enquiry-form .fields .field input:focus + label + label.control-label, #enquiry-form .fields .field input:not(:placeholder-shown) + label.control-label, #enquiry-form .fields .field input:not(:placeholder-shown) + label + label.control-label, #enquiry-form .fields .field input:focus + label.control-label, #enquiry-form .fields .field input:focus + label + label.control-label,
+        #enquiry-form .fields .field textarea:not(:placeholder-shown) + label.control-label,
+        #enquiry-form .fields .field textarea:not(:placeholder-shown) + label + label.control-label,
+        #enquiry-form .fields .field textarea:focus + label.control-label,
+        #enquiry-form .fields .field textarea:focus + label + label.control-label,
+        #enquiry-form .fields .field textarea:not(:placeholder-shown) + label.control-label,
+        #enquiry-form .fields .field textarea:not(:placeholder-shown) + label + label.control-label,
+        #enquiry-form .fields .field textarea:focus + label.control-label,
+        #enquiry-form .fields .field textarea:focus + label + label.control-label,
+        #enquiry-form .fields .field .cs-select:not(:placeholder-shown) + label.control-label,
+        #enquiry-form .fields .field .cs-select:not(:placeholder-shown) + label + label.control-label,
+        #enquiry-form .fields .field .cs-select:focus + label.control-label,
+        #enquiry-form .fields .field .cs-select:focus + label + label.control-label,
+        #enquiry-form .fields .field .cs-select:not(:placeholder-shown) + label.control-label,
+        #enquiry-form .fields .field .cs-select:not(:placeholder-shown) + label + label.control-label,
+        #enquiry-form .fields .field .cs-select:focus + label.control-label,
+        #enquiry-form .fields .field .cs-select:focus + label + label.control-label {
+          top: 0;
+          cursor: pointer;
+          color: #d4a655; }
+      #enquiry-form .fields .field input,
+      #enquiry-form .fields .field textarea {
+        color: #333;
+        font-family: "google_sansbold", Helvetica, Arial, sans-serif; }
+      #enquiry-form .fields .field textarea {
+        padding-top: 30px;
+        height: 100px; }
+      #enquiry-form .fields .field.field-date {
+        position: relative; }
+        #enquiry-form .fields .field.field-date .input-group-addon {
+          position: absolute;
+          left: 0;
+          bottom: 10px; }
+        #enquiry-form .fields .field.field-date input,
+        #enquiry-form .fields .field.field-date label.control-label {
+          padding-left: 30px; }
+      #enquiry-form .fields .field.field-select label.control-label {
+        display: none; }
+      #enquiry-form .fields .field .cs-select .control-label {
+        position: absolute;
+        top: 40px;
+        opacity: 0; }
+        #enquiry-form .fields .field .cs-select .control-label.active {
+          opacity: 1;
+          top: 0; }
+      #enquiry-form .fields .field .cs-select.active .cs-placeholder {
+        color: #d4a655; }
+      #enquiry-form .fields .field .cs-select .cs-placeholder {
+        padding: 0;
+        position: relative;
+        color: #aaa; }
+        #enquiry-form .fields .field .cs-select .cs-placeholder.active {
+          color: #333;
+          font-family: "google_sansbold", Helvetica, Arial, sans-serif; }
+      #enquiry-form .fields .field .cs-select .cs-options {
+        max-height: 200px;
+        overflow: auto;
+        border: 1px solid rgba(212, 166, 85, 0.2);
+        display: none;
+        z-index: 1; }
+        #enquiry-form .fields .field .cs-select .cs-options li span:hover {
+          background-color: #d4a655;
+          color: #fff; }
+      #enquiry-form .fields .field .cs-select.cs-active .cs-options {
+        display: block; }
+      #enquiry-form .fields .field .cs-select select {
+        display: inline-block;
+        position: absolute;
+        opacity: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        margin: auto;
+        width: 0px;
+        height: 0px; }
+      #enquiry-form .fields .field .cs-select label.error {
+        bottom: -25px; }
+      #enquiry-form .fields .field label.error {
+        position: absolute;
+        color: #dc3545;
+        font-family: "google_sansregular", Helvetica, Arial, sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase; }
+  #enquiry-form .form-actions .required {
+    font-size: 12px; }
+  #enquiry-form .form-actions button {
+    background-color: #d4a655;
+    font-family: "google_sansbold", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 15px 50px; }
+    @media (max-width: 575px) {
+      #enquiry-form .form-actions button {
+        width: 100%;
+        text-align: center;
+        padding: 15px; } }
+    #enquiry-form .form-actions button:hover {
+      background-color: #333; }
+
+.google-map-location {
+  position: relative; }
+  .google-map-location .direction {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block !important; }
+    .google-map-location .direction a {
+      display: inline-block;
+      background-color: rgba(212, 166, 85, 0.9);
+      color: #fff;
+      padding: 10px; }
+      @media (max-width: 575px) {
+        .google-map-location .direction a {
+          padding: 5px 10px; } }
+      .google-map-location .direction a:hover {
+        background-color: #d4a655; }
+      .google-map-location .direction a > div {
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        -webkit-align-items: center; }
+    .google-map-location .direction span {
+      display: inline-block; }
+      .google-map-location .direction span.icon {
+        width: 40px; }
+        .google-map-location .direction span.icon img {
+          max-width: 30px; }
+
+/*# sourceMappingURL=property.css.map */

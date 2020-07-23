@@ -1,0 +1,13 @@
+.gallery-list-zoom .block-item .image{
+	padding-top: 67%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.gallery-list-zoom .block-item .image a{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747 457" width="747" height="457">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #d3a655 } 
+		.txt1 { font-size: 80px;fill: #d3a655;font-family: "DejaVu Serif";font-weight: 400 } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M540.44 126.58L511.74 141.69L483.63 120.42L483.63 222.42L373.23 293.17L262.82 222.37L262.82 120.37L234.72 141.64L206.01 126.53L373.23 0L540.44 126.58ZM394.95 172.61L394.95 53.43L395.13 53.43L373.23 36.83L351.29 53.43L351.47 53.43L351.47 172.63L373.23 186.63L394.95 172.61ZM454.26 206.6L454.26 98.19L424.35 75.56L424.35 187.56L373.23 220.1L322.13 187.52L322.13 75.52L292.23 98.15L292.23 206.6L373.23 260.01L454.26 206.6Z" />
+	<text id="nichoias " style="transform: matrix(1,0,0,1,201,369)" >
+		<tspan x="0" y="0" class="txt1">nichoias</tspan>
+	</text>
+</svg>

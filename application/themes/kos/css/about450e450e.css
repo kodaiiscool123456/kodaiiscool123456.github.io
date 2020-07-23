@@ -1,0 +1,18 @@
+.edit .section-top-page .col-image { background: none !important; }
+.no-edit .section-top-page .col-image img { visibility: hidden; }
+.section-top-page .col-text { display: flex; display: -webkit-flex; align-items: center; -webkit-align-items: center; }
+@media (min-width: 992px) { .section-top-page .col-text > div { max-width: 720px; padding: 50px 100px 50px 0; } }
+@media (max-width: 991px) { .section-top-page .col-text > div { padding: 40px 40px 0; } }
+@media (max-width: 575px) { .section-top-page .col-text > div { padding: 30px 20px 0; } }
+@media (min-width: 768px) { .section-top-page .col-text h1 { margin-bottom: 60px; } }
+
+.section-content-page { padding: 100px 0; }
+@media (max-width: 767px) { .section-content-page { padding: 40px 0; } }
+@media (min-width: 1201px) { .section-content-page .container { max-width: 1390px; } }
+@media (max-width: 767px) { .section-content-page .col-item { margin-bottom: 40px; } }
+@media (min-width: 768px) { .section-content-page h2 { margin-bottom: 40px; } }
+.section-content-page .bottom-image { padding-top: 100px; }
+@media (max-width: 767px) { .section-content-page .bottom-image { padding-top: 40px; } }
+.section-content-page .bottom-image img { width: 100%; }
+
+/*# sourceMappingURL=about.css.map */
